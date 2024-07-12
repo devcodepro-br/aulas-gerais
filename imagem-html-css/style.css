@@ -1,0 +1,15 @@
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.ed {
+    width: 100%;
+    height: 150px;
+    background-image: url('https://s.mlcdn.com.br/banner/campanhas/0807ouromediumdesksemanaourovemai.png');
+    border-radius: 20px;
+}
+
+.celular {
+    text-align: center;
+}
