@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: black;
+
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 200px;
+    border: 2px solid rgb(111, 239, 243);
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+    i{
+        margin-right: 7px;
+        color: rgb(111, 239, 243);
+    }
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.github:hover{
+    background-color: gray;
+}
+
+.linkedin{
+    margin: 10px auto;
+    width: 140px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #FFF;
+    border: 2px solid rgb(111, 239, 243);
+    cursor: pointer;
+    i{
+        margin-right: 7px;
+        color: rgb(111, 239, 243);
+    }
+}
+
+.linkedin:hover{
+    background-color: gray;
+}
+
+.twitch{
+    margin: 10px auto;
+    width: 140px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #FFF;
+    border: 2px solid rgb(111, 239, 243);
+    cursor: pointer;
+    i{
+        margin-right: 7px;
+        color: rgb(111, 239, 243);
+    }
+}
+
+.twitch:hover{
+    background-color: gray;
+}
