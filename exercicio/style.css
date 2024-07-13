@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.texto {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: justify;
+
+    h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
+
+.imagem {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #800200;
+    font-weight: bold;
+}
+
+.botoes {
+    margin: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.75);
+
+    i {
+        margin-right: 10px;
+        padding: 10px;
+        background-color: #800200;
+        color: #FFF;
+        border-radius: 10px;
+    }
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: #800200;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contato:hover{
+    background-color: #800200;
+    color: #FFF;
+    i{
+        background-color: #FFF;
+        color: #800200;
+    }
+}
+
+.cardapio:hover{
+    background-color: #FFF;
+    color: #800200;
+}
